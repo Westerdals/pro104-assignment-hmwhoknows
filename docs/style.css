@@ -5,6 +5,17 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #46514E;
+}
+
 #content {
-    background-color: red;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+    width: 1366px;
+    height:1000px;
+
+    background-color: #339999;
+    margin:auto;
 }

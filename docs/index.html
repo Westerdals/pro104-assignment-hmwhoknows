@@ -7,34 +7,24 @@
     <title>Group 35</title>
 </head>
 <body>
-    <!--JS-->
-    <!--Update scripts-->
-    <script src="Members.js"></script>
-    <script src="TaskManager.js"></script>
-
-    <!--HTML-->
-    
     <header>
     </header>
     <div id="content">
         <!--Get input Members-->
-        <form onsubmit="createMember"></form>
+        <form onsubmit="createMember">
+        </form>
 
         <!--Get input TaskManager-->
-        <form onsubmit="createTask"></form>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    </div>  
-=======
-=======
-        
-        <!-- KASE TEST -->
->>>>>>> b1f99d6761f72f949a51521a94467b727de32cf2
+        <form onsubmit="createTask()">
+            <input id="task-input" type="text" placeholder="something">
+            <input type="button" value="add">
+            <div id="task-output"></div>
+        </form> 
     </div>
-    
-    <h1> Hei alle sammen, det er meg </h1>
->>>>>>> bc1cc7a35bacdc6f50966685d1aa0c037808b0df
-
-<!-- Adrees Test -->
 </body>
+<!--JS-->
+<!--Update scripts-->
+<script src="Members.js"></script>
+<script src="TaskManager.js"></script>
+
 </html>

@@ -1,11 +1,8 @@
-* {
-    margin:0;
-    padding:0;
-
-    box-sizing: border-box;
+body {
+    background-color: red;
 }
 
-#content {
+.mainContainer {
     width: 1000px;
     height: 750px;
     border-style: solid;
@@ -31,7 +28,7 @@
 }
 
 #box2 {
-        width: 380px;
+    width: 380px;
     height: 650px;
     border-style: solid;
     border-radius: 25px;
@@ -43,11 +40,7 @@
     background-color: #c5dcde;
 }
 
-#tasktxt {
-    top:200px;
-    
-}
-
-#memberstxt {
-    
+#head {
+    font-size: 40px;
+    text-align: center;
 }

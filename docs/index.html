@@ -10,16 +10,19 @@
     <header>
     </header>
     <div id="content">
-        <!--Get input Members-->
-        <form onsubmit="createMember">
-        </form>
-
-        <!--Get input TaskManager-->
-        <form onsubmit="createTask()">
+           <!--Get input TaskManager-->
+           <form onsubmit="createTask()">
             <input id="task-input" type="text" placeholder="something">
             <input type="button" value="add">
             <div id="task-output"></div>
         </form> 
+        
+        <!--Get input Members-->
+        <form onsubmit="createMember()">
+            <input id="member-input" type="text" placeholder="add member">
+            <input type="button" value="add">
+            <div id="member-output"></div>
+        </form>
     </div>
 </body>
 <!--JS-->

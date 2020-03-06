@@ -47,7 +47,7 @@ function displayMembers(){
         //check if the task field is empty
         //if not add tasks and members to li element
         if(member != "") {
-        liElement.innerText = `<h1>${member}</h1>`;
+        liElement.innerText = `<p>${member}</p>`;
         }
 
         //output to the screen

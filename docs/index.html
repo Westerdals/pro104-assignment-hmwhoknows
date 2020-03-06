@@ -9,16 +9,29 @@
 <body>
     <header>
     </header>
+    
+    <!-- Main container -->
     <div id="content">
+        
+    <!-- Box on left -->
+        <div id="box1">
+            <h2>Task</h2>
         <!--Get input Members-->
         <form onsubmit="createMember">
-        </form>
-
-        <!--Get input TaskManager-->
-        <form onsubmit="createTask()">
             <input id="task-input" type="text" placeholder="something">
             <input type="button" value="add">
-            <div id="task-output"></div>
+        </form> </div>
+        
+        
+
+        <!--Box on right. Get input TaskManager-->
+        <div id="box2">
+            <h2>Members</h2>
+        <form onsubmit="createTask()">
+            <div id="member-output"></div>
+            <input id="task-input" type="text" placeholder="something">
+            <input type="button" value="add"> </div>
+            
         </form> 
     </div>
 </body>

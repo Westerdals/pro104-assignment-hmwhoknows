@@ -54,3 +54,9 @@
     text-align: center;
     
 }
+
+#task-output {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}

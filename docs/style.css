@@ -44,10 +44,13 @@
 }
 
 #tasktxt {
-    top:200px;
+    font-size: 30px;
+    text-align: center;
     
 }
 
 #memberstxt {
+    font-size: 30px;
+    text-align: center;
     
 }

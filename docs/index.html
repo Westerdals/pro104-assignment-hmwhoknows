@@ -16,30 +16,37 @@
     <!-- Box on left -->
         <div id="box1">
             <h2 id="tasktxt">Task</h2>
-        <!--Get input Members-->
-        <form onsubmit="createMember">
+            
+     <!--Get input Members-->
+        <form onsubmit="createTask">
             <input id="task-input" type="text" placeholder="something">
-            <input type="button" value="add">
+            <button type="submit" value="Submit">Submit</button>
+
+            <div id="task-output">
+            </div>
         </form> 
+            
+    <!-- Output from task -->
         <div id="task-output"></div>
         </div>
-        
         
 
         <!--Box on right. Get input TaskManager-->
         <div id="box2">
             <h2 id="memberstxt">Members</h2>
-        <form onsubmit="createTask()">
+        <form onsubmit="createMember()">
             <div id="member-output"></div>
             <input id="member-input" type="text" placeholder="something">
-            <input type="button" value="add"> </div>
+            <input type="submit" value="Submit"> 
+        <div id="member-list"></div>
+        </form>
+        </div>
             
-        </form> 
     </div>
 </body>
 <!--JS-->
 <!--Update scripts-->
-<script src="Members.js"></script>
+<!-- <script src="Members.js"></script> -->
 <script src="TaskManager.js"></script>
 
 </html>

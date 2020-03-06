@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+
+/* 
 //Get and set values for Member list
 =======
 //IDs
@@ -60,4 +61,4 @@ function displayMembers(){
 
 //Display tasks on page load
 displayMembers();
->>>>>>> c376a06841cdc53b97c2fd2ec986277b647605f7
+>>>>>>> c376a06841cdc53b97c2fd2ec986277b647605f7 */

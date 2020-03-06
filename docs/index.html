@@ -15,21 +15,23 @@
         
     <!-- Box on left -->
         <div id="box1">
-            <h2>Task</h2>
+            <h2 id="tasktxt">Task</h2>
         <!--Get input Members-->
         <form onsubmit="createMember">
             <input id="task-input" type="text" placeholder="something">
             <input type="button" value="add">
-        </form> </div>
+        </form> 
+        <div id="task-output"></div>
+        </div>
         
         
 
         <!--Box on right. Get input TaskManager-->
         <div id="box2">
-            <h2>Members</h2>
+            <h2 id="memberstxt">Members</h2>
         <form onsubmit="createTask()">
             <div id="member-output"></div>
-            <input id="task-input" type="text" placeholder="something">
+            <input id="member-input" type="text" placeholder="something">
             <input type="button" value="add"> </div>
             
         </form> 

@@ -17,6 +17,14 @@
     background-color: #bfd2c9;
 }
 
+p {
+    font-size: 18px;
+    font-weight: 550;
+    line-height: 1.8;
+    margin-left: 25px;
+}
+
+
 #box1 {
     width: 380px;
     height: 650px;
@@ -31,7 +39,7 @@
 }
 
 #box2 {
-        width: 380px;
+    width: 380px;
     height: 650px;
     border-style: solid;
     border-radius: 25px;
@@ -41,22 +49,32 @@
     margin-top: 50px;
     position: absolute;
     background-color: #c5dcde;
+
 }
 
 #tasktxt {
     font-size: 30px;
     text-align: center;
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #memberstxt {
     font-size: 30px;
     text-align: center;
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #task-output {
     display: grid;
     grid-column-gap: 10px;
     grid-template-columns: 1fr 1fr;
+}
+
+.usertxt {
+    width: 200px;
+    height: 30px;
+    margin-left: 25px;
+    margin-bottom: 20px;
 }

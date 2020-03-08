@@ -60,3 +60,18 @@
     grid-column-gap: 10px;
     grid-template-columns: 1fr 1fr;
 }
+
+#clearMember {
+    position: absolute;
+    top: 600px;
+    left:250px;
+    width: 100px;
+}
+
+#clearTask {
+    position: absolute;
+    top: 600px;
+    left: 250px;
+    width: 100px;
+
+}

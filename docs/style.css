@@ -3,6 +3,7 @@
     padding:0;
 
     box-sizing: border-box;
+    font-family: sans-serif, serif;
 }
 body {
     background-image: url(img/nature.png);    
@@ -19,6 +20,7 @@ body {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px ;
     border-bottom: 2px solid black;
+    margin-top: -20px;
 }
 #tasktxt {
     font-size: 10em;
@@ -30,6 +32,7 @@ body {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px ;
     border-bottom: 2px solid black;
+    margin-top: -20px;
     
 }
 #memberstxt {
@@ -37,6 +40,7 @@ body {
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
 #content {
     width: 1000px;
     height: 750px;
@@ -86,7 +90,6 @@ p {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: sans-serif, serif;
 }
 
 #memberstxt {
@@ -94,7 +97,6 @@ p {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-family: sans-serif, serif;
 }
 
 #task-output {
@@ -120,6 +122,7 @@ p {
 
 .usertxt {
     margin-left: 20px;
+    margin-top: 20px;
     margin-bottom: 20px;
     padding: 5px;
 }

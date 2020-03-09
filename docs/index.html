@@ -19,17 +19,20 @@
             
      <!--Get input Members-->
         <form onsubmit="createTask()">
-            <input id="task-input" type="text" placeholder="something">
-            <button type="submit" value="Submit">Submit</button>
+            <input id="task-input" class="usertxt" type="text" placeholder="Add new task">
+            <input type="submit" value="Submit">
 
             <div id="task-output">
             </div>
+            <input id="clearTask" type="button" value="Clear Task">
         </form> 
             
     <!-- Output from task -->
-        <div id="task-output"></div>
-        <input id="clearTask" type="button" value="Clear Task">
+        <div id="task-output" ></div>
         </div>
+        
+        
+        
         </form> 
 
 
@@ -39,7 +42,7 @@
         <div id="box2">
             <h2 id="memberstxt">Members</h2>
         <form onsubmit="createMember()">
-            <input id="member-input" type="text" placeholder="something">
+            <input id="member-input" class="usertxt" type="text" placeholder="Add new member">
             <input type="submit" value="Submit"> 
             <div id="member-output"></div>
         <div id="member-list"></div>

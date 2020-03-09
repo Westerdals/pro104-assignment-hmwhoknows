@@ -110,7 +110,13 @@ p {
 }
 
 select {
-    height: 25px;
+    height: 32px;
+    
+}
+
+.submit-btn {
+    height: 30px;
+    width: 55px;
 }
 
 #clearMember {

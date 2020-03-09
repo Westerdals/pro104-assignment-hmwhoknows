@@ -18,7 +18,7 @@
 }
 
 p {
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 550;
     line-height: 1.8;
     margin-left: 25px;
@@ -85,4 +85,10 @@ p {
     left: 250px;
     width: 100px;
 
+}
+
+.usertxt {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
 }

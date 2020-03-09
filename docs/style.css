@@ -20,27 +20,27 @@ body {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px ;
     border-bottom: 2px solid black;
-    margin-top: -20px;
 }
 #tasktxt {
-    font-size: 10em;
+    font-size: 30px;
     padding-bottom: 20px;
     padding-top: 25px;
     color: white;
+    text-align: center;
 }
 #member-header {
     background-color: #55cceb;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px ;
     border-bottom: 2px solid black;
-    margin-top: -20px;
     
 }
 #memberstxt {
-    font-size: 10em;
+    font-size: 30px;
     padding-bottom: 20px;
     padding-top: 20px;
     color: white;
+    text-align: center;
 }
 
 #content {
@@ -85,20 +85,6 @@ p {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.726);
 
-}
-
-#tasktxt {
-    font-size: 30px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#memberstxt {
-    font-size: 30px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 #task-output {

@@ -9,5 +9,4 @@ clrMemberBtn.onclick = function clearMember(){
 clrTaskBtn.onclick = function clearTask(){
     localStorage.removeItem("taskList");
     window.location.reload();
-};
-
+}

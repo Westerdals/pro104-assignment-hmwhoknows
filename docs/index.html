@@ -12,40 +12,26 @@
     
     <!-- Main container -->
     <div id="content">
-        
-    <!-- Box on left -->
+        <!-- Box on left -->
         <div id="box1">
             <h2 id="tasktxt">Task</h2>
-            
-     <!--Get input Members-->
-        <form onsubmit="createTask()">
-            <input id="task-input" class="usertxt" type="text" placeholder="Add new task">
-            <input type="submit" value="Submit">
-
-            <div id="task-output">
-            </div>
-        </form> 
-            
-    <!-- Output from task -->
-        <div id="task-output" ></div>
+            <form onsubmit="createTask()">
+                <input id="task-input" class="usertxt" type="text" placeholder="Add new task">
+                <input type="submit" value="Submit">
+                <div id="task-output">
+                </div>
+            </form> 
         </div>
-        
-        
-        
-        </form> 
-
-
-
-
-        <!--Box on right. Get input TaskManager-->
+        <!--Box on right.-->
         <div id="box2">
             <h2 id="memberstxt">Members</h2>
-        <form onsubmit="createMember()">
-            <input id="member-input" class="usertxt" type="text" placeholder="Add new member">
-            <input type="submit" value="Submit"> 
-            <div id="member-output"></div>
-        <div id="member-list"></div>
-        </form>
+            <form onsubmit="createMember()">
+                <!--Get input Members-->
+                <input id="member-input" class="usertxt" type="text" placeholder="Add new member">
+                <input type="submit" value="Submit"> 
+                <div id="member-output"></div>
+                <div id="member-list"></div>
+            </form>
         </div>
     </div>
 </body>

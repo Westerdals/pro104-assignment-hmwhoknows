@@ -66,9 +66,6 @@ function storeChange(task, member) {
     //Create list
     const taskAndMemberList = JSON.parse(localStorage.getItem('taskAndMemberList')) ?? [];
     for(const listIndex in taskAndMemberList) {
-        console.log(taskAndMemberList[listIndex].tasks == task);
-        console.log(taskAndMemberList[listIndex].tasks);
-        console.log(task);
         if(taskAndMemberList[listIndex].tasks.toString() == task) {
             taskAndMemberList.splice(listIndex);
         }

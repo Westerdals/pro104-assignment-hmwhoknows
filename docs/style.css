@@ -18,7 +18,7 @@
 }
 
 p {
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 550;
     line-height: 1.8;
     margin-left: 25px;
@@ -72,9 +72,23 @@ p {
     grid-template-columns: 1fr 1fr;
 }
 
+#clearMember {
+    position: absolute;
+    top: 600px;
+    left:250px;
+    width: 100px;
+}
+
+#clearTask {
+    position: absolute;
+    top: 600px;
+    left: 250px;
+    width: 100px;
+
+}
+
 .usertxt {
-    width: 200px;
-    height: 30px;
-    margin-left: 25px;
+    margin-left: 20px;
     margin-bottom: 20px;
+    padding: 5px;
 }

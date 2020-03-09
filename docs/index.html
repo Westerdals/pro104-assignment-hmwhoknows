@@ -15,23 +15,30 @@
         <!-- Box on left -->
         <div id="box1">
             <h2 id="tasktxt">Task</h2>
-            <form onsubmit="createTask()">
-                <input id="task-input" class="usertxt" type="text" placeholder="Add new task">
-                <input type="submit" value="Submit">
-                <div id="task-output">
-                </div>
-            </form> 
+            
+     <!--Get input Members-->
+        <form onsubmit="createTask()">
+            <input id="task-input" class="usertxt" type="text" placeholder="Add new task">
+            <input type="submit" value="Submit">
+
+            <div id="task-output">
+            </div>
+            <input id="clearTask" type="button" value="Clear Task">
+        </form> 
+            
+    <!-- Output from task -->
+        <div id="task-output" ></div>
         </div>
         <!--Box on right.-->
         <div id="box2">
             <h2 id="memberstxt">Members</h2>
-            <form onsubmit="createMember()">
-                <!--Get input Members-->
-                <input id="member-input" class="usertxt" type="text" placeholder="Add new member">
-                <input type="submit" value="Submit"> 
-                <div id="member-output"></div>
-                <div id="member-list"></div>
-            </form>
+        <form onsubmit="createMember()">
+            <input id="member-input" class="usertxt" type="text" placeholder="Add new member">
+            <input type="submit" value="Submit"> 
+            <div id="member-output"></div>
+        <div id="member-list"></div>
+        </form>
+        <input id="clearMember" type="button" value="Clear Members">
         </div>
     </div>
 </body>
@@ -40,5 +47,6 @@
 <!-- <script src="Members.js"></script> -->
 <script src="Members.js"></script>  
 <script src="TaskManager.js"></script>
+<script src="clear.js"></script>
 
 </html>

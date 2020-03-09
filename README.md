@@ -1,7 +1,7 @@
 "# pro104-assignment-hmwhoknows" 
 
 # HTML
-- [x] Settup basic HTML tags (input, label etc.)
+- [x] Settup basic HTML tags (input, etc.)
 - [x] Settup HTML for both Tasks & Members
 
 ## JAVASCRIPT
@@ -13,6 +13,8 @@
 
 - [x] Assign Member to Task
 - [x] Push to local storage
+
+- [x] Clearing tasks/members from local storage
 
 ### CSS
 - [x] GRID

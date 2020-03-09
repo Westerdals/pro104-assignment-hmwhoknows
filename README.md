@@ -5,13 +5,14 @@
 - [ ] Settup HTML for both Tasks & Members
 
 ## JAVASCRIPT
-- [ ] Settup Tasks "push to local storage"
-- [ ] Settup Tasks "Pull from local storage"
+- [ x ] Settup Tasks "push to local storage"
+- [ x ] Settup Tasks "Pull from local storage"
 
-- [ ] Settup Members "push to local storage"
-- [ ] Settup Members "Pull from local storage"
+- [ x ] Settup Members "push to local storage"
+- [ x ] Settup Members "Pull from local storage"
 
-- [ ] Settup new script to assign Member to Task
+- [ x ] Assign Member to Task
+- [ x ] Push to local storage
 
 ### CSS
 - [ ] GRID

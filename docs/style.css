@@ -4,47 +4,26 @@
 
     box-sizing: border-box;
 }
-body{
-    background-image: url(img/nature.png);    
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 
-}
-#header{
- 
-    text-align: center;
-}
-#task-header{
-    background-color: #55cceb;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px ;
-    border-bottom: 2px solid black;
-}
-#tasktxt{
-    font-size: 10em;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-#memberheader{
-    background-color: #55cceb;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px ;
-    border-bottom: 2px solid black;
-}
-#memberstxt  {
-    font-size: 10em;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}  
 #content {
     width: 1000px;
     height: 750px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
     position: relative;
     margin: auto;
     display: block;
-    
+    background-color: #bfd2c9;
 }
+
+p {
+    font-size: 25px;
+    font-weight: 550;
+    line-height: 1.8;
+    margin-left: 25px;
+}
+
 
 #box1 {
     width: 380px;
@@ -56,11 +35,11 @@ body{
     margin-left: 90px;
     margin-top: 50px;
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.726);
+    background-color: #c5dcde;
 }
 
 #box2 {
-        width: 380px;
+    width: 380px;
     height: 650px;
     border-style: solid;
     border-radius: 25px;
@@ -69,17 +48,49 @@ body{
     margin-left: 530px;
     margin-top: 50px;
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.781);
+    background-color: #c5dcde;
+
 }
 
 #tasktxt {
     font-size: 30px;
     text-align: center;
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #memberstxt {
     font-size: 30px;
     text-align: center;
-    
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+#task-output {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+#clearMember {
+    position: absolute;
+    top: 600px;
+    left:250px;
+    width: 100px;
+}
+
+#clearTask {
+    position: absolute;
+    top: 600px;
+    left: 250px;
+    width: 100px;
+
+}
+
+.usertxt {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+/* hello */

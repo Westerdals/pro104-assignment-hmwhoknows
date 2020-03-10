@@ -22,3 +22,11 @@
 - [x] Adjust Size
 - [x] Add Background Picture
 - [x] Add scrollbar
+
+#### Contributiors
+- Sondre Domaas Døhlen
+- Lars Even Hjelen
+- Ida Mathiassen
+- Adrees Hamed Ghafoor
+- Niklas Hall
+- Kristoffer Kase

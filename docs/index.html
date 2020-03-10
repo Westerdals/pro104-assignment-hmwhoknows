@@ -21,22 +21,21 @@
         <form onsubmit="createTask()">
             <input id="task-input" class="usertxt" type="text" maxlength="15" placeholder="Add new task">
             <input class="submit-btn" type="submit" value="Submit">
-            <input id="clearTask" type="button" value="Clear Task">
+                <!-- Output from task -->
+            <div id="task-output" class="output"></div>
         </form> 
-            
-    <!-- Output from task -->
-        <div id="task-output"></div>
+        <input id="clearTask" class="clear" type="button" value="Clear Task">
         </div>
         <!--Box on right.-->
         <div id="box2">
             <div id= "member-header"><h2 id="memberstxt">Members</h2></div>
-        <form onsubmit="createMember()">
-            <input id="member-input" class="usertxt" type="text" maxlength="15" placeholder="Add new member">
-            <input class="submit-btn" type="submit" value="Submit"> 
-            <div id="member-output"></div>
-        <div id="member-list"></div>
-        </form>
-        <input id="clearMember" type="button" value="Clear Members">
+            <form onsubmit="createMember()">
+                <input id="member-input" class="usertxt" type="text" maxlength="15" placeholder="Add new member">
+                <input class="submit-btn" type="submit" value="Submit"> 
+                <div id="member-output" class="output"></div>
+            <div id="member-list"></div>
+            </form>
+            <input id="clearMember" class="clear" type="button" value="Clear Members">
         </div>
     </div>
 </body>

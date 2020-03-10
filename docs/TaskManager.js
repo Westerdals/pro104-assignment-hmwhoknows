@@ -35,25 +35,36 @@ function displayTasks() {
     divOutput.innerHTML = "";
     //Create select container
     const selectEl = document.createElement("select");
+    const optionEl = document.createElement("option");
 
+    selectEl.setAttribute("onchange", "storeChange(this.previousElementSibling.innerHTML, this.value)");
+
+    optionEl.innerHTML = "Choose a member";
+    selectEl.innerHTML = "";
+    selectEl.appendChild(optionEl);
+
+    
     //Add members into select element
     for(const member of memberList) {
-        selectEl.innerText += `<option>${member}</option>`;
+        const optionEl = document.createElement("option");
+        optionEl.innerHTML = member;
+        selectEl.appendChild(optionEl);
     }
     
     //add tasks into output div as li elements
     for(const task of taskList) {
         //Create list element
         const liElement = document.createElement("LI");
+        const pElement = document.createElement("P");
         //check if the task field is empty
         //if not add tasks and members to li element
         if(task != "") {
-        liElement.innerText = `<p>${task}</p> 
-            <select onchange="storeChange(this.previousElementSibling.innerHTML, this.value)">
-                ${selectEl.innerText}</select>`;
+            pElement.innerHTML = task;
+            liElement.innerHTML += pElement.outerHTML + selectEl.outerHTML;
+            // liElement.appendChild(selectEl);
         }
         //output to the screen
-        divOutput.innerHTML += liElement.innerText;
+        divOutput.appendChild(liElement);
     }
 
     
@@ -62,7 +73,6 @@ function displayTasks() {
 //add member to task and store it in local storage
 //Called from select when changed
 function storeChange(task, member) {
-    console.log(task, member);
     //Create list
     const taskAndMemberList = JSON.parse(localStorage.getItem('taskAndMemberList')) ?? [];
     for(const listIndex in taskAndMemberList) {

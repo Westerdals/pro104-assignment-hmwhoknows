@@ -1,8 +1,8 @@
 "# pro104-assignment-hmwhoknows" 
 
 # HTML
-- [ ] Settup basic HTML tags (input, label etc.)
-- [ ] Settup HTML for both Tasks & Members
+- [x] Settup basic HTML tags (input, etc.)
+- [x] Settup HTML for both Tasks & Members
 
 ## JAVASCRIPT
 - [x] Settup Tasks "push to local storage"
@@ -14,6 +14,19 @@
 - [x] Assign Member to Task
 - [x] Push to local storage
 
+- [x] Clearing tasks/members from local storage
+
 ### CSS
-- [ ] GRID
-- [ ] BASIC styling
+- [x] GRID
+- [x] BASIC styling
+- [x] Adjust Size
+- [x] Add Background Picture
+- [x] Add scrollbar
+
+#### Contributiors
+- Sondre Domaas Døhlen
+- Lars Even Hjelen
+- Ida Mathiassen
+- Adrees Hamed Ghafoor
+- Niklas Hall
+- Kristoffer Kase
